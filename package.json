@@ -10,6 +10,10 @@
   "author": "Andre Lacke",
   "license": "ISC",
   "dependencies": {
-    "@solana/web3.js": "^1.66.2"
+    "@solana/web3.js": "^1.66.2",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
   }
 }
