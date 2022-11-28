@@ -5,7 +5,7 @@ const { Connection, PublicKey, clusterApiUrl, Keypair, LAMPORTS_PER_SOL } = requ
   }
 
 // @ts-ignore
-  const airDropSol = async (setNewPair, newPair, setFillCheckMarkToggle) => {
+  const airDropSol = async (setNewPair, setFillCheckMarkToggle) => {
     try {
       // Connect to the Devnet and make a wallet from privateKey
       const connection = new Connection(clusterApiUrl('devnet'), 'confirmed');

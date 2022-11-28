@@ -4,7 +4,7 @@ export const disconnectWallet = async (setWalletKey, walletKey) => {
   const { solana } = window;
 
   // checks if phantom wallet exists
-  if (walletKey) {
+  if (walletKey && solana) {
     try {
       // disconnects wallet
       await solana.disconnect();

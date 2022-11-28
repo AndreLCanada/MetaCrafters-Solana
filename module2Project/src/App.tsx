@@ -1,5 +1,5 @@
 
-// importfunctionalities
+// import functionalities
 import {useEffect , useState } from "react";
 import './styles-css/globals.css';
 import {
@@ -11,6 +11,7 @@ import { connectWallet  } from './components/connectWallet';
 import { disconnectWallet } from './components/disconnectWallet';
 import { transferSolFromFaucet } from './components/transferSol';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 import { Fade } from '@mui/material';
 
 window.Buffer = window.Buffer || require("buffer").Buffer;
@@ -96,11 +97,11 @@ function App() {
   };
 
   const handleAirDropSolClick = () => {
-    airDropSol(setNewPair, newPair, setFillCheckMarkToggle)
+    airDropSol(setNewPair, setFillCheckMarkToggle)
   };
 
   const handleTransferSolClick = () => {
-  transferSolFromFaucet(newPair, walletKey)
+    transferSolFromFaucet(newPair, walletKey)
   };
 	// HTML code for the app
   return (
@@ -108,28 +109,28 @@ function App() {
     <Fade in={true} style={{ transitionDelay: `500ms` }} timeout={{ enter: 800 }}>
     <div className="App">
       <header className="App-header">
-        <div className={'titleContainer'}>
-        <h1>Solana Faucet</h1>
-        </div>
-        {provider && walletKey && <p className={'walletConnected'}>
+      {fillCheckMarkToggle && <p className={'faucetFilled'}>
           <CheckCircleOutlineIcon 
           sx={{
-            fontSize: "34px",
-            transform: "translateY(6px)",
-            fill: 'green',
-            marginRight: 1,
-          }}/>
-          Wallet Connected
-          </p>}
-          {fillCheckMarkToggle && <p className={'faucetFilled'}>
-          <CheckCircleOutlineIcon 
-          sx={{
-            fontSize: "34px",
+            fontSize: "28px",
             transform: "translateY(6px)",
             fill: 'green',
             marginRight: 1,
           }}/>
           Faucet Filled & Ready
+          </p>}
+          <div className={'titleContainer'}>
+            <h1 className={'title_shine'}>Solana Faucet</h1>
+          </div>
+        {provider && walletKey && <p className={'walletConnected'}>
+          <CheckCircleOutlineIcon 
+          sx={{
+            fontSize: "28px",
+            transform: "translateY(6px)",
+            fill: 'green',
+            marginRight: 1,
+          }}/>
+          Wallet Connected
           </p>}
       </header>
         <div className={'card'}>
@@ -197,6 +198,20 @@ function App() {
                 Use Faucet
               </button>
           </div>
+        </div>
+        <div className={'footer'}>
+          <p>Media Kit pieces sourced from & belong to <CopyrightIcon 
+          sx={{
+            fontSize: "14px",
+            transform: "translateY(1px)",
+            fill: '#ede8ba',
+          }}/><a style={{marginRight: '4px',}} href="https://www.metacrafters.io" >MetaCrafters.</a></p>
+          <p>Solana Faucet made by <CopyrightIcon 
+          sx={{
+            fontSize: "14px",
+            transform: "translateY(1px)",
+            fill: '#ede8ba',
+          }}/><a href="https://www.andrelacke.com" >Andre</a></p>
         </div>
     </div>
     </Fade>
