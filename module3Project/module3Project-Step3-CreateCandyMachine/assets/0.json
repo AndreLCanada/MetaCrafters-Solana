@@ -1,0 +1,43 @@
+{
+  "name": "Curious Otter",
+  "symbol": "CO",
+  "description": "Collection of 11 Cute Otter NFTs. This is the number 1/11.",
+  "seller_fee_basis_points": 500,
+  "image": "0.png",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "Henry"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Curious"
+    },
+    {
+      "trait_type": "Coat",
+      "value": "Light"
+    },
+    {
+      "trait_type": "Special Power",
+      "value": "Problem-solving"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "numbers",
+    "family": "numbers"
+  }
+}

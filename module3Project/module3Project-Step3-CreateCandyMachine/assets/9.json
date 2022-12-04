@@ -1,0 +1,43 @@
+{
+  "name": "Spiritual Otter",
+  "symbol": "SO",
+  "description": "Collection of 11 Cute Otter NFTs. This is the number 10/11.",
+  "seller_fee_basis_points": 500,
+  "image": "9.png",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "Bud"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Holy"
+    },
+    {
+      "trait_type": "Coat",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Special Power",
+      "value": "Meditation"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "9.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "numbers",
+    "family": "numbers"
+  }
+}

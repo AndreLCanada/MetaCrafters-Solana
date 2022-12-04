@@ -1,0 +1,43 @@
+{
+  "name": "Mad Otter",
+  "symbol": "MO",
+  "description": "Collection of 11 Cute Otter NFTs. This is the number 4/11.",
+  "seller_fee_basis_points": 500,
+  "image": "3.png",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "Bill"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Not Having It"
+    },
+    {
+      "trait_type": "Coat",
+      "value": "Spotted"
+    },
+    {
+      "trait_type": "Special Power",
+      "value": "Kicking A**"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "3.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "numbers",
+    "family": "numbers"
+  }
+}

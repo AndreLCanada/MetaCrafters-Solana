@@ -1,0 +1,43 @@
+{
+  "name": "Triplet Otters!",
+  "symbol": "TO",
+  "description": "Collection of 11 Cute Otter NFTs. This is the number 6/11.",
+  "seller_fee_basis_points": 500,
+  "image": "5.png",
+  "attributes": [
+    {
+      "trait_type": "Name",
+      "value": "Timmy, Tina, and Terry"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Delighted"
+    },
+    {
+      "trait_type": "Coat",
+      "value": "Soft"
+    },
+    {
+      "trait_type": "Special Power",
+      "value": "Team Work"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "N4f6zftYsuu4yT7icsjLwh4i6pB1zvvKbseHj2NmSQw",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "5.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "numbers",
+    "family": "numbers"
+  }
+}

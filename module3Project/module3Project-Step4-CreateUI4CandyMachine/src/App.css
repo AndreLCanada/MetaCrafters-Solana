@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: aqua;
+}
+
+.carousel {
+  justify-content: center;
+}
+
+.slider-container {
+  width: 70vw;
+  height: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.slider-list {
+  width: 75vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
